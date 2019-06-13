@@ -18,7 +18,7 @@
 							<a href="inBuilding.jsp">企业简介</a>
 						</li>
 						<li>
-							<a href="newFrontList.mvc">新闻</a>
+							<a href="newsFrontList.mvc">新闻</a>
 						</li>
 						<li>
 							<a href="inBuilding.jsp">核心竞争力</a>

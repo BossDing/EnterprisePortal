@@ -5,12 +5,33 @@
 </head>
 <body>
 	<table>
-		<tr><td>1.系统功能结构</td></tr>
-		<tr><td><img src = "ProjectIntroduce/企业信息门户系统功能结构.jpg"></td></tr>
-		<tr><td>2.系统业务流程</td></tr>
-		<tr><td><img src = "ProjectIntroduce/业务流程图.jpg"></td></tr>
-		<tr><td>3.系统数据表结构</td></tr>
-		<tr><td><img src = "ProjectIntroduce/数据库.png"></td></tr>
+		<tr>
+			<td>1.系统功能结构：</td>
+			<td>2.系统业务流程：</td>
+		</tr>
+		<tr>
+			<td><img src = "ProjectIntroduce/企业信息门户系统功能结构.jpg"></td>
+			<td><img src = "ProjectIntroduce/业务流程图.jpg"></td>
+		</tr>
+		<tr>
+			<td>3.系统数据表结构：</td>
+			<td>4.两大模块：</td>
+		</tr>
+		<tr>
+			<td><img src = "ProjectIntroduce/数据库.png"><br/>注意：用户表中的注册时间变量名写错，应该是registerTime</td>
+			<td>
+				<table>
+					<tr><td>4.1 新闻模块及其实现：</td></tr>
+					<tr><td>在数据库中存储新闻消息，并在前台jsp显示。</td></tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr><td>4.2 后台维护模块：</td></tr>
+					<tr><td>人员登陆之后，可以在后台发布和修改自己的新闻。管理人员可以发布和修改所有的新闻。</td></tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr><td>4.3 数据库实现</td></tr>
+					<tr><td>数据库操作使用mybatis. 具体用Dao层实现, 用Service层隔离数据库操作.</td></tr>
+				</table>
+			</td>
+		</tr>
 		
 	</table>
 </body>

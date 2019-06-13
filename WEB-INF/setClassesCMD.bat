@@ -12,4 +12,5 @@ for /f %%i in ('dir /b /a:d lib') do (
 	)
 )
 setlocal disabledelayedexpansion
+set javac=javac -d classes -cp %classes% -encoding UTF-8
 cmd
