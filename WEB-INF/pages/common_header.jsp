@@ -4,7 +4,7 @@
 		<div class = "wrap">
 			<div class = "header">
 				<div class = "logo">
-					<a href = "index.mvc"><img src = "img/logo.png" alt = ""/></a>
+					<a href = "/EnterprisePortal/index.mvc"><img src = "/EnterprisePortal/img/logo.png" alt = ""/></a>
 				</div>
 				<div class = "pull-icon">
 					<a id = "pull" ></a>
@@ -12,19 +12,19 @@
 				<div class = "cssmenu">
 					<ul>
 						<li>
-							<a href="index.mvc">首页</a>
+							<a href="/EnterprisePortal/index.mvc">首页</a>
 						</li>
 						<li>
-							<a href="inBuilding.jsp">企业简介</a>
+							<a href="/EnterprisePortal/inBuilding.jsp">企业简介</a>
 						</li>
 						<li>
-							<a href="newsFrontList.mvc">新闻</a>
+							<a href="/EnterprisePortal/newsList.mvc?start=0&number=5">新闻</a>
 						</li>
 						<li>
-							<a href="inBuilding.jsp">核心竞争力</a>
+							<a href="/EnterprisePortal/inBuilding.jsp">核心竞争力</a>
 						</li>
 						<li class="last">
-							<a href="inBuilding.jsp">联系我们</a>
+							<a href="/EnterprisePortal/inBuilding.jsp">联系我们</a>
 						</li>
 					</ul>
 				</div>

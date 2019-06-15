@@ -7,19 +7,19 @@
 	<div class="wrap_w_72">
 		<div class="grids_1_of_3">
 			<div class="grid_1_of_3 images_1_of_3">
-				<img src="img/pic1.png"/>
+				<img src="/EnterprisePortal/img/pic1.png"/>
 			</div>
 			<div class="grid_1_of_3 images_1_of_3">
-				<img src="img/pic2.png"/>
+				<img src="/EnterprisePortal/img/pic2.png"/>
 			</div>
 			<div class="grid_1_of_3 images_1_of_3">
-				<img src="img/pic3.png" />
+				<img src="/EnterprisePortal/img/pic3.png" />
 			</div>
 			<div class="grid_1_of_3 images_1_of_3">
-				<img src="img/pic4.png" />
+				<img src="/EnterprisePortal/img/pic4.png" />
 			</div>
 			<div class="grid_1_of_3 images_1_of_3" style="background:none">
-				<img src="img/pic5.png" />
+				<img src="/EnterprisePortal/img/pic5.png" />
 			</div>
 			<div class="clear"></div>
 		</div>

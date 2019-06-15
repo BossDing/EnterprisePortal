@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shengxinwu.mapper.NewsMapper">
+	<resultMap type="news" id="newsMap">
+		<id property="newsId" column="newid" />
+		<result property="newsTitle" column="newstitle" />
+		<result property="newsContent" column="newscontent" />
+		<result property="newsTime" column="newstime" />
+		<result property="publisher.userId" column="userid" />
+		<result property="publisher.userName" column="username" />
+		<result property="publisher.userPwd" column="userpwd" />
+		<result property="publisher.userType" column="usertype" />
+		<result property="publisher.registerTime" column="registertime" />
+	</resultMap>
+	
+	<select id="findAllNews" resultMap="newsMap">
+		select * from news n left outer join user u on n.userid = u.userid
+	</select>
+</mapper>

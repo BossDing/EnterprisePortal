@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class News{
 	int newsId;
-	String newsTitile;
+	String newsTitle;
 	String newsContent;
 	Date newsTime;
 	User publisher;
@@ -19,11 +19,11 @@ public class News{
     }
 
 
-    public void setNewsTitile(String value){
-        this.newsTitile = value;
+    public void setNewsTitle(String value){
+        this.newsTitle = value;
     }
-    public String getNewsTitile(){
-        return this.newsTitile;
+    public String getNewsTitle(){
+        return this.newsTitle;
     }
 
 
