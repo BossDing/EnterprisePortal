@@ -19,4 +19,20 @@ public class NewsDao{
 //		List<News> newsList = newsMapper.findAllNews();
 		return newsList;
 	}
+	
+	public List<News> getNewsOfOne(int userId){
+		return newsMapper.findAllNewsOfOne(userId);
+	}
+	
+	public int insertNews(News news){
+		return newsMapper.insertNews(news);
+	}
+	
+	public int updateNews(News news){
+		return newsMapper.updateNews(news);
+	}
+	
+	public int deleteNews(int newsId){
+		return newsMapper.deleteNews(newsId);
+	}
 }

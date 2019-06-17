@@ -1,2 +1,2 @@
-copy /y NewsMapper.xml ..\..\..\..\classes\com\shengxinwu\mapper\
+copy /y *.xml ..\..\..\..\classes\com\shengxinwu\mapper\
 pause

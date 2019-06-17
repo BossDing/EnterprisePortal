@@ -14,4 +14,20 @@ public class NewsService{
 	public List<News> getNewsList(int start, int number){
 		return newsDao.getNews(start, number);
 	}
+	
+	public List<News> getNewsListOfOne(int id){
+		return newsDao.getNewsOfOne(id);
+	}
+	
+	public int addNews(News news){
+		return newsDao.insertNews(news);
+	}
+	
+	public int amendNews(News news){
+		return newsDao.updateNews(news);
+	}
+	
+	public int deleteNews(int newsId){
+		return newsDao.deleteNews(newsId);
+	}
 }

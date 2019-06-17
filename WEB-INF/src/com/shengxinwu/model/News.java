@@ -1,13 +1,13 @@
 package com.shengxinwu.model;
 
 import com.shengxinwu.model.User;
-import java.util.Date;
+import java.sql.Timestamp;
 
 public class News{
 	int newsId;
 	String newsTitle;
 	String newsContent;
-	Date newsTime;
+	Timestamp newsTime;
 	User publisher;
 	
 	/*getter and setter*/
@@ -35,10 +35,10 @@ public class News{
     }
 
 
-    public void setNewsTime(Date value){
+    public void setNewsTime(Timestamp value){
         this.newsTime = value;
     }
-    public Date getNewsTime(){
+    public Timestamp getNewsTime(){
         return this.newsTime;
     }
 

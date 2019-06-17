@@ -1,14 +1,14 @@
 package com.shengxinwu.model;
 
 import com.shengxinwu.model.UserType;
-import java.util.Date;
+import java.sql.Timestamp;
 
 public class User{
 	int userId;
 	String userName;
 	String userPwd;
 	UserType userType;
-	Date registerTime;
+	Timestamp registerTime;
 	
 	/*getter and setter*/
 	public void setUserId(int value){
@@ -43,10 +43,10 @@ public class User{
     }
 
 
-    public void setRegisterTime(Date value){
+    public void setRegisterTime(Timestamp value){
         this.registerTime = value;
     }
-    public Date getRegisterTime(){
+    public Timestamp getRegisterTime(){
         return this.registerTime;
     }
 }

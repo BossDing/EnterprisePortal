@@ -16,4 +16,22 @@
 	<select id="findAllNews" resultMap="newsMap">
 		select * from news n left outer join user u on n.userid = u.userid
 	</select>
+	
+	<select id="findAllNewsOfOne" parameterType="int" resultMap="newsMap">
+		select * from news n left outer join user u on n.userid = u.userid where n.userid = #{userId}
+	</select>
+	
+	<insert id="insertNews" parameterType="news" useGeneratedKeys="true" keyProperty="newsId">
+		insert into news(newstitle,newscontent,newstime,userid) 
+			values(#{newsTitle},#{newsContent}, #{newsTime}, #{publisher.userId})
+	</insert>
+	
+	<update id="updateNews" parameterType="news">
+		update news set newstitle = #{newsTitle}, newscontent = #{newsContent}, newstime = #{newsTime} where newsid = #{newsId}
+	</update>
+	
+	<delete id="deleteNews" parameterType="int">
+		delete from news where newsid = #{newsId}
+	</delete>
+	
 </mapper>
